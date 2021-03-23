@@ -3,18 +3,18 @@
 const Stratum = require('./libs/class.Stratum');
 
 const stratum = new Stratum({
-    coinbaseAddress: 'TC6qME2GhepR7656DgsR72pkQDmhfTDbtV',
-    blockBrand: '/@makipool/ref-stratum/',
+    coinbaseAddress: 'aEEUsX5vneekVSbhfoXwaPeGFZcf2NP315',
+    blockBrand: '/@makipool/mtp-firo-stratum/',
     host: "0.0.0.0",
     port: {
         number: 3000,
-        diff: 512
+        diff: 1024
     },
     rpc: {
         host: '172.16.3.102',
-        port: 17001,
-        user: 'rpcuser',
-        password: "x"
+        port: 15001,
+        user: 'firo',
+        password: "eam040505"
     },
     jobUpdateInterval: 55,
     blockPollIntervalMs: 250

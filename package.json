@@ -9,9 +9,9 @@
     "@makipool/hasher-mtp": "^2.0.0",
     "@makipool/mint-bos": "^2.0.1",
     "@makipool/mint-bitcoin-script": "^1.0.1",
-    "@makipool/mint-merkle": "^1.0.0",
+    "@makipool/mint-merkle": "^2.0.0",
     "@makipool/mint-precon": "^1.0.0",
-    "@makipool/mint-utils": "^2.0.0"
+    "@makipool/mint-utils": "^2.6.0"
   },
   "homepage": "https://github.com/MakiPool/mtp-firo-stratum",
   "bugs": {

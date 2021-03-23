@@ -173,7 +173,7 @@ class Coinbase {
         }
         else {
 
-            const devFundSt = 187500000;
+            const devFundSt = 0;
             const devFundScript = scripts.makeAddressScript(
                 isTestnet
                     ? 'TUuKypsbbnHHmZ2auC2BBWfaP1oTEnxjK2'

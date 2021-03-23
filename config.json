@@ -1,0 +1,17 @@
+{
+    "coinbaseAddress": "aEEUsX5vneekVSbhfoXwaPeGFZcf2NP315",
+    "blockBrand": "/@makipool/mtp-firo-stratum/",
+    "host": "0.0.0.0",
+    "port": {
+        "number": 3000,
+        "diff": 1024
+    },
+    "rpc": {
+        "host": "127.0.0.1",
+        "port": 15001,
+        "user": "user",
+        "password": "x"
+    },
+    "jobUpdateInterval": 50,
+    "blockPollIntervalMs": 300
+}
