@@ -3,7 +3,7 @@
 const Stratum = require('./libs/class.Stratum');
 
 const stratum = new Stratum({
-    coinbaseAddress: 'aEEUsX5vneekVSbhfoXwaPeGFZcf2NP315',
+    coinbaseAddress: 'TC6qME2GhepR7656DgsR72pkQDmhfTDbtV',
     blockBrand: '/@makipool/mtp-firo-stratum/',
     host: "0.0.0.0",
     port: {
