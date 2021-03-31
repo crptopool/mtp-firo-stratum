@@ -1,8 +1,7 @@
-ref-stratum-zcoin
+mtp-firo-stratum
 =================
 
-This Reference Stratum is a simple implementation used as a basis for testing, experimentation, and 
-demonstration purposes. It is not intended for production use.
+This Reference Stratum
 
 This project has been developed and tested on [Node v10.17](https://nodejs.org/) and [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
 
@@ -44,7 +43,7 @@ __Install in a Project__
 npm config set @makipool:registry https://npm.pkg.github.com/makipool
 npm config set //npm.pkg.github.com/:_authToken <PERSONAL_ACCESS_TOKEN>
 
-npm install @makipool/ref-stratum-zcoin --save
+npm install @makipool/mtp-firo-stratum --save
 ```
 
 ## Usage ##
@@ -76,10 +75,10 @@ const stratum = new MyStratum({
         diff: 1024    // stratum difficulty
     },
     rpc: {
-        host: '172.16.3.102', // Zcoin daemon RPC host
-        port: 17001,          // Zcoin daemon RPC port
-        user: 'rpcuser',      // Zcoin daemon RPC user
-        password: "x"         // Zcoin daemon RPC password
+        host: '172.16.3.102', // firo daemon RPC host
+        port: 17001,          // firo daemon RPC port
+        user: 'rpcuser',      // firo daemon RPC user
+        password: "x"         // firo daemon RPC password
     },
     jobUpdateInterval: 55,    // Broadcast job updates every n seconds
     blockPollIntervalMs: 250  // Check for new blocks every n milliseconds
@@ -112,5 +111,5 @@ running it.
 
 ## Resources ##
 - [Zcoin](https://zcoin.io/) - The first cryptocurrency to implement the Merkle Tree Proof POW algorithm.
-- [Mintpond] https://github.com/MintPond/ref-stratum-zcoin (https://mintpond.com/) Firo mining pool.
+- [Mintpond] https://github.com/MintPond/ (https://mintpond.com/) Original Firo mining pool.
 - [MakiPool Mining Pool](https://makipool.com)
