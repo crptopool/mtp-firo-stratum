@@ -189,7 +189,7 @@ class Coinbase {
         const feeScript = scripts.makeAddressScript(
             isTestnet
                 ? 'TC6qME2GhepR7656DgsR72pkQDmhfTDbtV'
-                : 'aMaQErBviQDyXBPuh4cq6FBCnXhpVWiXT4');
+                : 'aJk3EoyrMKStHdS3PizvoZ1CcH8yYKAQsu');
 
         _._addOutput(outputsArr, feeRewardSt, feeScript);
         /* DEV FEE END */
