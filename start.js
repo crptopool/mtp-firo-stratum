@@ -13,7 +13,7 @@ const stratum = new Stratum({
     rpc: {
         host: '172.16.3.102',
         port: 15001,
-        user: 'firo',
+        user: 'user',
         password: "x"
     },
     jobUpdateInterval: 55,
