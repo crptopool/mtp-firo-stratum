@@ -112,4 +112,4 @@ running it.
 ## Resources ##
 - [Zcoin](https://zcoin.io/) - The first cryptocurrency to implement the Merkle Tree Proof POW algorithm.
 - [Mintpond](https://github.com/MintPond/) - [MintPond Firo Pool](https://mintpond.com/) Original Firo mining pool.
-- [MakiPool Solo Mining Pool](https://makipool.com)
+- [MakiPool Firo Solo Mining](https://makipool.com)
