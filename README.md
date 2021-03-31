@@ -34,7 +34,7 @@ __Download from Github__
 git clone https://github.com/MakiPool/mtp-firo-stratum
 
 # install
-cd ref-stratum-zcoin
+cd mtp-firo-stratum
 npm install
 ```
 
