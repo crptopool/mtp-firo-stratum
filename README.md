@@ -1,7 +1,7 @@
 mtp-firo-stratum
 =================
 
-This is an Firo MTP Reference Stratum
+This is a Firo MTP Reference Stratum
 
 This project has been developed and tested on [Node v10.17](https://nodejs.org/) and [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
 
