@@ -3,7 +3,7 @@ mtp-firo-stratum
 
 This is a Firo MTP Reference Stratum
 
-This project has been developed and tested on [Node v10.17](https://nodejs.org/) and [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
+This project has been developed and tested on [Node v10.17](https://nodejs.org/) [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) and [Windows 10](https://www.microsoft.com/en-ca/software-download/windows10)
 
 ## Install ##
 
@@ -111,5 +111,5 @@ running it.
 
 ## Resources ##
 - [Zcoin](https://zcoin.io/) - The first cryptocurrency to implement the Merkle Tree Proof POW algorithm.
-- [Mintpond] https://github.com/MintPond/ (https://mintpond.com/) Original Firo mining pool.
+- [Mintpond](https://github.com/MintPond/) - [MintPond Firo Pool](https://mintpond.com/) Original Firo mining pool.
 - [MakiPool Mining Pool](https://makipool.com)
