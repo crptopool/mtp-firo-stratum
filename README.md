@@ -3,7 +3,7 @@ mtp-firo-stratum
 
 This is a Firo MTP Reference Stratum
 
-This project has been developed and tested on [Node v10.17](https://nodejs.org/) [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) and [Windows 10](https://www.microsoft.com/en-ca/software-download/windows10)
+This project has been developed and tested on [Node v10.17](https://nodejs.org/) on [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) and [Windows 10](https://www.microsoft.com/en-ca/software-download/windows10)
 
 ## Install ##
 
