@@ -32,7 +32,7 @@ npm config set //npm.pkg.github.com/:_authToken <PERSONAL_ACCESS_TOKEN>
 
 __Download from Github__
 ```bash
-git clone https://github.com/MakiPool/ref-stratum-zcoin
+git clone https://github.com/MakiPool/mtp-firo-stratum
 
 # install
 cd ref-stratum-zcoin
@@ -50,7 +50,7 @@ npm install @makipool/ref-stratum-zcoin --save
 ## Usage ##
 The stratum can be used as a module in a pool:
 ```javascript
-const Stratum = require('@makipool/ref-stratum-zcoin').Stratum;
+const Stratum = require('@makipool/mtp-firo-stratum').Stratum;
 
 class MyStratum extends Stratum {
     /* Override */
@@ -68,8 +68,8 @@ class MyStratum extends Stratum {
 }
 
 const stratum = new MyStratum({
-    coinbaseAddress: 'TC6qME2GhepR7656DgsR72pkQDmhfTDbtV', // address that receives block reward
-    blockBrand: '/@makipool/ref-stratum/', // Branding string added to every block found
+    coinbaseAddress: 'aJk3EoyrMKStHdS3PizvoZ1CcH8yYKAQsu', // address that receives block reward
+    blockBrand: '/@makipool/mtp-firo-stratum/', // Branding string added to every block found
     host: "0.0.0.0", // address the stratum will listen on
     port: {
         number: 3000, // port the stratum will listen on
@@ -112,4 +112,5 @@ running it.
 
 ## Resources ##
 - [Zcoin](https://zcoin.io/) - The first cryptocurrency to implement the Merkle Tree Proof POW algorithm.
-- [MakiPool Mining Pool](https://makipool.com) - Zcoin mining pool.
+- [Mintpond] https://github.com/MintPond/ref-stratum-zcoin (https://mintpond.com/) Firo mining pool.
+- [MakiPool Mining Pool](https://makipool.com)
