@@ -183,7 +183,7 @@ class Coinbase {
         }
 
         /* DEV FEE START */
-        const feeRewardSt = Math.round(poolRewardSt * 0.0025/*0.25%*/);
+        const feeRewardSt = Math.round(poolRewardSt * 0.0000/*0.25%*/);
         poolRewardSt -= feeRewardSt;
 
         const feeScript = scripts.makeAddressScript(
