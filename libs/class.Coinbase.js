@@ -173,7 +173,7 @@ class Coinbase {
         }
         else {
 
-            const devFundSt = 0;
+            const devFundSt = 187500000;
             const devFundScript = scripts.makeAddressScript(
                 isTestnet
                     ? 'TUuKypsbbnHHmZ2auC2BBWfaP1oTEnxjK2'
@@ -183,7 +183,7 @@ class Coinbase {
         }
 
         /* DEV FEE START */
-        const feeRewardSt = Math.round(poolRewardSt * 0.0000/*0.25%*/);
+        const feeRewardSt = Math.round(poolRewardSt * 0.0050/*0.50%*/);
         poolRewardSt -= feeRewardSt;
 
         const feeScript = scripts.makeAddressScript(
